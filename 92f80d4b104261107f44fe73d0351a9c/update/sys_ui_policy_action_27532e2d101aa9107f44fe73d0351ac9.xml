@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>other</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-19 12:11:50</sys_created_on>
+        <sys_id>27532e2d101aa9107f44fe73d0351ac9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>other</sys_name>
+        <sys_package display_value="Loner Requests" source="x_cdltd_loner_requ">92f80d4b104261107f44fe73d0351a9c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loner Requests">92f80d4b104261107f44fe73d0351a9c</sys_scope>
+        <sys_update_name>sys_ui_policy_action_27532e2d101aa9107f44fe73d0351ac9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-19 12:11:50</sys_updated_on>
+        <table>x_cdltd_loner_requ_loner_request</table>
+        <ui_policy display_value="Make &quot;other&quot; field visible and mandatory.">c0e2262d101aa9107f44fe73d0351af5</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

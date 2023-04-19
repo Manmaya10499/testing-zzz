@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="" label="Loner Request" language="en" table="x_cdltd_loner_requ_loner_request">
+    <sys_documentation element="location_to_be_used" label="Location to be used" language="en" table="x_cdltd_loner_requ_loner_request">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element/>
+            <element>location_to_be_used</element>
             <help/>
             <hint/>
-            <label>Loner Request</label>
+            <label>Location to be used</label>
             <language>en</language>
             <name>x_cdltd_loner_requ_loner_request</name>
-            <plural>Loner Requests</plural>
+            <plural>Location to be used</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2023-04-11 11:17:32</sys_created_on>
-            <sys_id>795a01cb104261107f44fe73d0351ab8</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_name>Loner Request</sys_name>
+            <sys_created_on>2023-04-19 03:48:53</sys_created_on>
+            <sys_id>846078a11092a9107f44fe73d0351a19</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Location to be used</sys_name>
             <sys_package display_value="Loner Requests" source="x_cdltd_loner_requ">92f80d4b104261107f44fe73d0351a9c</sys_package>
             <sys_policy/>
             <sys_scope display_value="Loner Requests">92f80d4b104261107f44fe73d0351a9c</sys_scope>
-            <sys_update_name>sys_documentation_x_cdltd_loner_requ_loner_request__en</sys_update_name>
+            <sys_update_name>sys_documentation_x_cdltd_loner_requ_loner_request_location_to_be_used_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2023-04-19 15:28:42</sys_updated_on>
+            <sys_updated_on>2023-04-19 03:48:53</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
