@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Loner Requests">689a05cb104261107f44fe73d0351a35</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>prop 02</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>900</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>/incident_list.do</query>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-21 07:42:48</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d4d83f0ad19e21107f442633e0d58a18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>prop 02</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Loner Requests" source="x_cdltd_loner_requ">92f80d4b104261107f44fe73d0351a9c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loner Requests">92f80d4b104261107f44fe73d0351a9c</sys_scope>
+        <sys_update_name>sys_app_module_d4d83f0ad19e21107f442633e0d58a18</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-21 07:42:48</sys_updated_on>
+        <timeline_page/>
+        <title>prop 02</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>
