@@ -39,7 +39,8 @@
 <p>Dear ${requested_for},</p>
 <p>The ${item_type} (${cmdb_ci}) is available for pick up at ${depot}</p>
 <p>Your Reservation is scheduled to begin at ${start_date}. Plz return the item in the same place that you picked up by ${end_date}.</p>
-<p>You will receive a return reminder 24hrs prior to its due date.</p>]]></message_html>
+<p>You will receive a return reminder 24hrs prior to its due date.</p>
+<p>${mail_script:x_cdltd_loner_requ_loner_request_script_1}</p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Loner Item Pickup</name>
@@ -53,7 +54,7 @@
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
-        <subject/>
+        <subject>Loner Item Request</subject>
         <subscribable>false</subscribable>
         <sys_class_name>sysevent_email_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -61,7 +62,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>58793c56d19261107f442633e0d58adb</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Loner Item Pickup</sys_name>
         <sys_overrides/>
         <sys_package display_value="Loner Requests" source="x_cdltd_loner_requ">92f80d4b104261107f44fe73d0351a9c</sys_package>
@@ -69,7 +70,7 @@
         <sys_scope display_value="Loner Requests">92f80d4b104261107f44fe73d0351a9c</sys_scope>
         <sys_update_name>sysevent_email_action_58793c56d19261107f442633e0d58adb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-04-21 12:36:05</sys_updated_on>
+        <sys_updated_on>2023-04-22 12:03:30</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
