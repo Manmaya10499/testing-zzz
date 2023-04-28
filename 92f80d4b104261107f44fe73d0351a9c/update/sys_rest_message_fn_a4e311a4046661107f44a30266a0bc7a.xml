@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content/>
+        <function_name>getCoordinates</function_name>
+        <http_method>get</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>geo location [ getCoordinates ]</qualified_name>
+        <rest_endpoint>http://api.weatherstack.com/current?access_key=5fb360b91134de2ee24d2ae7fede4101&amp;query=${location}</rest_endpoint>
+        <rest_message display_value="geo location">d8c3d12004a661107f44a30266a0bcbf</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-28 14:05:47</sys_created_on>
+        <sys_id>a4e311a4046661107f44a30266a0bc7a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>getCoordinates</sys_name>
+        <sys_package display_value="Loner Requests" source="x_cdltd_loner_requ">92f80d4b104261107f44fe73d0351a9c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loner Requests">92f80d4b104261107f44fe73d0351a9c</sys_scope>
+        <sys_update_name>sys_rest_message_fn_a4e311a4046661107f44a30266a0bc7a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-28 14:06:56</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>

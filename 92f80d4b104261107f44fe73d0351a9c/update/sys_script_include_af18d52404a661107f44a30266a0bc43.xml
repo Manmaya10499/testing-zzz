@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_cdltd_loner_requ.getCoordinate_utils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>getCoordinate_utils</name>
+        <script><![CDATA[var getCoordinate_utils = Class.create();
+getCoordinate_utils.prototype = {
+    initialize: function() {},
+    getCoordinates: function(location) {
+        try {
+            location = encodeURIComponent(location); //encodeURIComponent()
+            var r = new sn_ws.RESTMessageV2('x_cdltd_loner_requ.geo location', 'getCoordinates');
+            r.setStringParameterNoEscape('location', location);
+            var response = r.execute();
+            var responseBody = response.getBody();
+
+
+            var httpStatus = response.getStatusCode();
+            if (httpStatus == 200) {
+                var result = JSON.parse(responseBody).location || {};
+                if (result && result['lat'] && result['lon']) {
+                    return JSON.stringify({
+                        'lat': result['lat'],
+                        'lon': result['lon']
+                    });
+                } else {
+                    return JSON.stringify({
+                        error: "check for error, there may be some!!"
+                    });
+                }
+            } else {
+                return JSON.stringify({
+                    error: "check for error, there may be some!!"
+                });
+            }
+
+        } catch (ex) {
+            var message = ex.message;
+            return JSON.stringify({
+                error: "something went wrong!!"
+            });
+        }
+    },
+    type: 'getCoordinate_utils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-28 14:29:03</sys_created_on>
+        <sys_id>af18d52404a661107f44a30266a0bc43</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>getCoordinate_utils</sys_name>
+        <sys_package display_value="Loner Requests" source="x_cdltd_loner_requ">92f80d4b104261107f44fe73d0351a9c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loner Requests">92f80d4b104261107f44fe73d0351a9c</sys_scope>
+        <sys_update_name>sys_script_include_af18d52404a661107f44a30266a0bc43</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-28 14:35:37</sys_updated_on>
+    </sys_script_include>
+</record_update>
