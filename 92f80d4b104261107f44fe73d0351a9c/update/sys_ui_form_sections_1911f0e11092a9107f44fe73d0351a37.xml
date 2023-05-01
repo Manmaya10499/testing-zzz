@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="1911f0e11092a9107f44fe73d0351a37" sys_domain="global" table="x_cdltd_loner_requ_loner_request" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-19 03:52:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2511f0e11092a9107f44fe73d0351a60</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cdltd_loner_requ_loner_request" name="x_cdltd_loner_requ_loner_request" sys_domain="global" view="Default view">1911f0e11092a9107f44fe73d0351a37</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_cdltd_loner_requ_loner_request" sys_domain="global" view="Default view">a08ef1cb100661107f44fe73d0351a96</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-19 03:52:00</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-19 03:52:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2111f0e11092a9107f44fe73d0351a61</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cdltd_loner_requ_loner_request" name="x_cdltd_loner_requ_loner_request" sys_domain="global" view="Default view">1911f0e11092a9107f44fe73d0351a37</sys_ui_form>
+            <sys_ui_section caption="Log" display_value="Log" name="x_cdltd_loner_requ_loner_request" sys_domain="global" view="Default view">5111f0e11092a9107f44fe73d0351a35</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-19 03:52:00</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-19 03:52:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2d11f0e11092a9107f44fe73d0351a64</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cdltd_loner_requ_loner_request" name="x_cdltd_loner_requ_loner_request" sys_domain="global" view="Default view">1911f0e11092a9107f44fe73d0351a37</sys_ui_form>
+            <sys_ui_section caption="Statistics" display_value="Statistics" name="x_cdltd_loner_requ_loner_request" sys_domain="global" view="Default view">5911f0e11092a9107f44fe73d0351a36</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-19 03:52:00</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-21 15:24:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1bd2e11ed11661107f442633e0d58a98</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cdltd_loner_requ_loner_request" name="x_cdltd_loner_requ_loner_request" sys_domain="global" view="Default view">1911f0e11092a9107f44fe73d0351a37</sys_ui_form>
+            <sys_ui_section caption="Reminders" display_value="Reminders" name="x_cdltd_loner_requ_loner_request" sys_domain="global" view="Default view">17d2e11ed11661107f442633e0d58a93</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-21 15:24:55</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_cdltd_loner_requ_loner_request</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-19 03:52:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1911f0e11092a9107f44fe73d0351a37</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_cdltd_loner_requ_loner_request</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Loner Requests" source="x_cdltd_loner_requ">92f80d4b104261107f44fe73d0351a9c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Loner Requests">92f80d4b104261107f44fe73d0351a9c</sys_scope>
+            <sys_update_name>sys_ui_form_sections_1911f0e11092a9107f44fe73d0351a37</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-19 03:52:00</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

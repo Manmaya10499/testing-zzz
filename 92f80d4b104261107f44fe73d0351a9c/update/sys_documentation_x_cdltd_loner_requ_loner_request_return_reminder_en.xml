@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="return_reminder" label="Return Reminder" language="en" table="x_cdltd_loner_requ_loner_request">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>return_reminder</element>
+            <help/>
+            <hint/>
+            <label>Return Reminder</label>
+            <language>en</language>
+            <name>x_cdltd_loner_requ_loner_request</name>
+            <plural>Return Reminders</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-04-21 15:24:55</sys_created_on>
+            <sys_id>dbd2e11ed11661107f442633e0d58aa1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Return Reminder</sys_name>
+            <sys_package display_value="Loner Requests" source="x_cdltd_loner_requ">92f80d4b104261107f44fe73d0351a9c</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Loner Requests">92f80d4b104261107f44fe73d0351a9c</sys_scope>
+            <sys_update_name>sys_documentation_x_cdltd_loner_requ_loner_request_return_reminder_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-04-21 15:24:55</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

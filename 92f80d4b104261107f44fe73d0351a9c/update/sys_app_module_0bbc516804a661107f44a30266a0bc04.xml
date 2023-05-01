@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Loner Requests">689a05cb104261107f44fe73d0351a35</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>MAP</link_type>
+        <map_page display_value="x_cdltd_loner_requ_Requested for locatio">09e4956004a661107f44a30266a0bcd4</map_page>
+        <mobile_title>Loner request locations</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query>/$map_page_primary.do?sysparm_sys_id=09e4956004a661107f44a30266a0bcd4</query>
+        <report/>
+        <roles>x_cdltd_loner_requ.loner_request_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-28 15:08:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0bbc516804a661107f44a30266a0bc04</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Loner request locations</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Loner Requests" source="x_cdltd_loner_requ">92f80d4b104261107f44fe73d0351a9c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loner Requests">92f80d4b104261107f44fe73d0351a9c</sys_scope>
+        <sys_update_name>sys_app_module_0bbc516804a661107f44a30266a0bc04</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-28 15:11:56</sys_updated_on>
+        <timeline_page/>
+        <title>Loner request locations</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

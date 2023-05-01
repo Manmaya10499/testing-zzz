@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>x_cdltd_loner_requ_loner_request_script_1</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[if (current.item_type == 'cmdb_ci_computer') {
+        var request = new sn_ws.RESTMessageV2();
+        request.setEndpoint('https://nowlearning-nlinst00717439-test-001.lab.service-now.com/api/now/table/u_password_vault?sysparm_query=u_asset%3D' + current.cmdb_ci.asset_tag + '&sysparm_fields=u_password&sysparm_limit=1');
+        request.setHttpMethod('GET');
+        //Eg. UserName="admin", Password="admin" for this code sample.
+        var user = 'admin';
+        var password = '8Gmy2cxbAwfW';
+        request.setBasicAuth(user, password);
+        request.setRequestHeader("Accept", "application/json");
+        var response = request.execute();
+  var pwd = JSON.parse(response.getBody()).result[0].u_password;
+  
+        template.print("retrieved password - "+pwd);
+    }]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-22 12:03:05</sys_created_on>
+        <sys_id>1c4e75eed116a1107f442633e0d58ada</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_loner_requ_loner_request_script_1</sys_name>
+        <sys_package display_value="Loner Requests" source="x_cdltd_loner_requ">92f80d4b104261107f44fe73d0351a9c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loner Requests">92f80d4b104261107f44fe73d0351a9c</sys_scope>
+        <sys_update_name>sys_script_email_1c4e75eed116a1107f442633e0d58ada</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-22 12:03:05</sys_updated_on>
+    </sys_script_email>
+</record_update>

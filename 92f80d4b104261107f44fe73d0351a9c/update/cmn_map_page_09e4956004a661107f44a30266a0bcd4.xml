@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cmn_map_page">
+    <cmn_map_page action="INSERT_OR_UPDATE">
+        <center_address>Yogododji, Africa</center_address>
+        <center_latitude/>
+        <center_longitude/>
+        <controls_size>large</controls_size>
+        <coordinates_retrieved_on/>
+        <disable_map_controls/>
+        <disable_nav_bar>false</disable_nav_bar>
+        <filter/>
+        <initial_zoom>2</initial_zoom>
+        <name>x_cdltd_loner_requ_Requested for locatio</name>
+        <overview>false</overview>
+        <refresh_on_zoom>false</refresh_on_zoom>
+        <roles/>
+        <script><![CDATA[var gr = new GlideRecord('x_cdltd_loner_requ_loner_request');
+gr.addEncodedQuery("location_to_be_usedISNOTEMPTY");
+gr.query();
+
+while (gr.next()) {
+
+    var utils = new getCoordinate_utils();
+	var coordinates = utils.getCoordinates(gr.location_to_be_used+'');
+	coordinates = JSON.parse(coordinates);
+
+	var myLat = coordinates['lat'];
+	var myLong = coordinates['lon'];
+
+	var item = map.addItem(gr);
+    item.latitude = String(myLat);
+    item.longitude = String(myLong);
+    item.dialog_title = gr.getDisplayValue();
+    item.icon = "https://maps.google.com/mapfiles/ms/micons/yellow.png";
+    item.icon_width = "32";
+    item.icon_height = "32";
+}]]></script>
+        <show_device_location>true</show_device_location>
+        <suffix>Requested for location</suffix>
+        <sys_class_name>cmn_map_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-28 14:39:30</sys_created_on>
+        <sys_id>09e4956004a661107f44a30266a0bcd4</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>x_cdltd_loner_requ_Requested for locatio</sys_name>
+        <sys_package display_value="Loner Requests" source="x_cdltd_loner_requ">92f80d4b104261107f44fe73d0351a9c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loner Requests">92f80d4b104261107f44fe73d0351a9c</sys_scope>
+        <sys_update_name>cmn_map_page_09e4956004a661107f44a30266a0bcd4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-28 15:04:56</sys_updated_on>
+        <type>terrain</type>
+        <type_selection>buttons</type_selection>
+        <use_advanced_configuration>false</use_advanced_configuration>
+    </cmn_map_page>
+</record_update>
